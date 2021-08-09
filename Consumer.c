@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
    if(length < 1 || numloops < 1)
    {
       printf("Size of printer queue or the number of print jobs printed per cycle cannot be less than one\n");
+      return 0;
    }
 
    //Generate unique key for printer queue
